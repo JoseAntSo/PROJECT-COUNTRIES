@@ -1,0 +1,23 @@
+.detailcard{
+    display: flex; /* Utilizamos flexbox para centrar y distribuir el contenido */
+    align-items: center; /* Alineamos los elementos al inicio del eje vertical (parte superior) */
+    justify-content: center; /* Centrar horizontalmente el contenido */
+    flex-direction: column; /* Distribuir el contenido en fila (uno al lado del otro) */
+    text-align: center; /* Alineamos el texto a la izquierda */
+    padding: 20px; /* Agregamos un espacio interno para dar margen entre la imagen y la información */
+    
+}
+/*  width: 300px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease;
+    text-decoration: none; */
+.detailcard img {
+    width: 300px; /* Tamaño de la imagen */
+    height: auto; /* Altura automática para mantener la proporción */
+    margin-right: 10px; /* Espacio entre la imagen y la información */
+}
